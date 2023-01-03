@@ -1,0 +1,316 @@
+body {
+  background-image: url("../images/zebra.png");
+  margin: 0;
+  text-align: center;
+  font-family: Verdana;
+}
+
+.navbar {
+  display: flex;
+  padding: 0;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+.topnav {
+  width: 100%;
+  background-color: black;
+  align-items: center;
+  top: 0;
+  justify-content: center;
+}
+
+
+.navitems {
+  list-style-type: none;
+  padding: 0;
+  background-color: black;
+}
+
+.navitems li {
+  display: inline;
+}
+
+.navitems li a {
+  background-color: black;
+  color: white;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navitems li a:hover {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
+
+.title {
+  background-color: black;
+  color: white;
+  margin: 9%;
+  margin-left: 24%;
+  margin-right: 24%;
+}
+
+.title h1 {
+  padding: 1%;
+}
+
+.title h2 {
+  padding: 1%;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  padding: 1%;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex: 1 0 auto;
+  background-color: black;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: 0 auto;
+}
+
+.cards p {
+  color: white;
+}
+
+.card {
+  margin: 2%;
+  margin-left: 4%;
+  margin-right: 0;
+  border-radius: 5px;
+  transition: 0.3s;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  width: 160px;
+  height: 40px;
+  text-decoration: none;
+}
+
+
+h3 {
+  margin: 0;
+  margin-top: 10px;
+}
+
+.card:hover {
+  background-color: grey;
+  color: white;
+}
+
+footer {
+  text-align: right;
+  background-color: black;
+  color: white;
+  margin: 0%;
+  padding: 20px;
+}
+
+footer p {
+  margin: 0;
+}
+
+.game_report {
+  background-color: black;
+  margin: 0%;
+  padding: 3% 0 3% 0;
+  color: white;
+}
+
+.field {
+  background-color: green;
+  border-radius: 5px;
+  border: 4px solid white;
+  text-align: center;
+  margin: 0% 10% 0% 10%;
+}
+
+.game_data {
+  margin: 2% auto;
+  border: 3px solid white;
+  border-collapse: collapse;
+  color: white;
+}
+
+td {
+  padding: 5px;
+  border: 2px solid white;
+  text-align: center;
+}
+
+th {
+  border: 2px solid white;
+  padding: 10px;
+  font-size: x-large;
+}
+
+.ravens {
+  background-color: #241773;
+  color: #000000;
+}
+
+.bengals {
+  background-color: #FB4F14;
+  color: #000000;
+}
+
+.browns {
+  background-color: #311D00;
+  color: #FF3C00;
+}
+
+.steelers {
+  background-color: #FFB612;
+  color: #101820;
+}
+
+.bills {
+  background-color: #00338D;
+  color: #C60C30;
+}
+
+.dolphins{
+  background-color: #008E97;
+  color: #FC4C02;
+}
+
+.patriots {
+  background-color: #002244;
+  color: #C60C30;
+}
+
+.jets{
+  background-color: #125740;
+  color: #FFFFFF;
+}
+
+.texans {
+  background-color: #03202F;
+  color: #A71930;
+}
+
+.colts {
+  background-color: #002C5F;
+  color: #a5acaf;
+}
+
+.jaguars {
+  background-color: #006778;
+  color: #9F792C;
+}
+
+.titans {
+  background-color: #0C2340;
+  color: #8a8d8f;
+}
+
+.broncos {
+  background-color: #FB4F14;
+  color: #002244;
+}
+
+.chiefs {
+  background-color: #E31837;
+  color: #FFB81C;
+}
+
+.raiders {
+  background-color: #000000;
+  color: #A5ACAF;
+}
+
+.chargers {
+  background-color: #0080C6;
+  color: #FFC20E;
+}
+
+.bears {
+  background-color:#0B162A;
+  color: #C83803;
+}
+
+.lions {
+  background-color: #0076B6;
+  color: #B0B7BC;
+}
+
+.packers {
+  background-color: #203731;
+  color: #FFB612;
+}
+
+.vikings {
+  background-color: #4F2683;
+  color: #FFC62F;
+}
+
+.cowgirls {
+  background-color: #003594;
+  color: #869397;
+}
+
+.giants {
+  background-color: #0B2265;
+  color: #A71930;
+}
+
+.eagles {
+  background-color: #004C54;
+  color: #A5ACAF;
+}
+
+.commanders {
+  background-color: #5A1414;
+  color: #FFB612;
+}
+
+.falcons {
+  background-color: #000000;
+  color: #A71930;
+}
+
+.panthers {
+  background-color: #0085CA;
+  color: #BFC0BF;
+}
+
+.saints {
+  background-color: #101820;
+  color: #D3BC8D;
+}
+
+.buccaneers{
+  background-color: #D50A0A;
+  color: #FF7900;
+}
+
+.cardinals {
+  background-color: #97233F;
+  color: #000000;
+}
+
+.rams {
+  background-color: #003594;
+  color: #FFA300;
+}
+
+.forty_niners {
+  background-color: #AA0000;
+  color: #B3995D;
+}
+
+.seahawks {
+  background-color: #002244;
+  color: #69BE28;
+}
